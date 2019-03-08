@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mBuilding Dockerfile:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFROM anapsix/alpine-java:latest[0m
+[0m[[0m[0mdebug[0m] [0m[0mADD 0/solar-panel-emulator-assembly-0.1.jar /project/solar-panel-emulator-assembly-0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCOPY 1/scripts /project/[0m
+[0m[[0m[0mdebug[0m] [0m[0mENTRYPOINT ["\/project\/start.sh"][0m
+[0m[[0m[0mdebug[0m] [0m[0mCMD ["\/project\/", "solar-panel-emulator", "0.1"][0m
+[0m[[0m[0mdebug[0m] [0m[0mPreparing stage directory '/Users/ai/Downloads/ucu/Scala/master/solar-panel-emulator/target/docker'[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning command: 'docker build --no-cache=false --rm=true --pull=false .' in '/Users/ai/Downloads/ucu/Scala/master/solar-panel-emulator/target/docker'[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon 40.31 MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/5 : FROM anapsix/alpine-java:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mlatest: Pulling from anapsix/alpine-java[0m
+[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:1d24bc352e07b84c073acfff8bf913c213d1cfc73cdf876b181d714870968819[0m
+[0m[[0m[0minfo[0m] [0m[0mStatus: Image is up to date for anapsix/alpine-java:latest[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> c45785c254c5[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/5 : ADD 0/solar-panel-emulator-assembly-0.1.jar /project/solar-panel-emulator-assembly-0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 3da69a642b7c[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 56e8ecca69bb[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/5 : COPY 1/scripts /project/[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 7c307fe17fd9[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 12d07406527a[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/5 : ENTRYPOINT /project/start.sh[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in f4c02bca5121[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 9e66ffdd79e6[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container f4c02bca5121[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/5 : CMD /project/ solar-panel-emulator 0.1[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 2196b8d40434[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8e373334e8e2[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2196b8d40434[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 8e373334e8e2[0m
+[0m[[0m[0minfo[0m] [0m[0mTagging image 8e373334e8e2 with name: 768305773658.dkr.ecr.us-east-1.amazonaws.com/ucu-class/solar-panel-emulator:ostapchuk-0.1[0m

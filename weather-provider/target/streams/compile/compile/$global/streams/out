@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ai/Downloads/ucu/Scala/master/weather-provider/src/main/scala/ua/ucu/edu/kafka/DummyDataProducer.scala:5:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.kafka.clients.producer.{Callback, KafkaProducer, ProducerRecord, RecordMetadata}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

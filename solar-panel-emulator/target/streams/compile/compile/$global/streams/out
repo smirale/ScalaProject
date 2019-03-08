@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ai/Downloads/ucu/Scala/master/solar-panel-emulator/src/main/scala/ua/ucu/edu/actor/SensorActor.scala:5:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ua.ucu.edu.model.{ReadMeasurement, RespondMeasurement}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ai/Downloads/ucu/Scala/master/solar-panel-emulator/src/main/scala/ua/ucu/edu/actor/SensorActor.scala:5:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ua.ucu.edu.model.{ReadMeasurement, RespondMeasurement}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/ai/Downloads/ucu/Scala/master/solar-panel-emulator/src/main/scala/ua/ucu/edu/actor/SensorActor.scala:7:23: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.language.postfixOps[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

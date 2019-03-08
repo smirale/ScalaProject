@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0mBuilding Dockerfile:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFROM anapsix/alpine-java:latest[0m
+[0m[[0m[0mdebug[0m] [0m[0mADD 0/streaming-app-assembly-0.1.jar /project/streaming-app-assembly-0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCOPY 1/scripts /project/[0m
+[0m[[0m[0mdebug[0m] [0m[0mENTRYPOINT ["\/project\/start.sh"][0m
+[0m[[0m[0mdebug[0m] [0m[0mCMD ["\/project\/", "streaming-app", "0.1"][0m
+[0m[[0m[0mdebug[0m] [0m[0mPreparing stage directory '/Users/ai/Downloads/ucu/Scala/master/streaming-app/target/docker'[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning command: 'docker build --no-cache=false --rm=true --pull=false .' in '/Users/ai/Downloads/ucu/Scala/master/streaming-app/target/docker'[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon 38.06 MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/5 : FROM anapsix/alpine-java:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mlatest: Pulling from anapsix/alpine-java[0m
+[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pulling fs layer[0m
+[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Verifying Checksum[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Download complete[0m
+[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pull complete[0m
+[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:1d24bc352e07b84c073acfff8bf913c213d1cfc73cdf876b181d714870968819[0m
+[0m[[0m[0minfo[0m] [0m[0mStatus: Image is up to date for anapsix/alpine-java:latest[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> c45785c254c5[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/5 : ADD 0/streaming-app-assembly-0.1.jar /project/streaming-app-assembly-0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> f238dfe665c0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2879cb9c022b[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/5 : COPY 1/scripts /project/[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 044aa4e886e6[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container dd831e5d69c4[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/5 : ENTRYPOINT /project/start.sh[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 8dd47e46cf5f[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 4c2dc0fd3888[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 8dd47e46cf5f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/5 : CMD /project/ streaming-app 0.1[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in efc3dbf2e113[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> f734050da54c[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container efc3dbf2e113[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built f734050da54c[0m
+[0m[[0m[0minfo[0m] [0m[0mTagging image f734050da54c with name: 768305773658.dkr.ecr.us-east-1.amazonaws.com/ucu-class/streaming-app:ostapchuk-0.1[0m

@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Export-Package: io.aeron.driver;version="1.12.0";uses:="io.aeron,io.ae
+ ron.driver.buffer,io.aeron.driver.media,io.aeron.driver.reports,io.ae
+ ron.driver.status,io.aeron.logbuffer,io.aeron.protocol,org.agrona,org
+ .agrona.concurrent,org.agrona.concurrent.broadcast,org.agrona.concurr
+ ent.errors,org.agrona.concurrent.status",io.aeron.driver.buffer;versi
+ on="1.12.0";uses:="org.agrona,org.agrona.concurrent",io.aeron.driver.
+ exceptions;version="1.12.0";uses:="io.aeron,io.aeron.exceptions",io.a
+ eron.driver.ext;version="1.12.0";uses:="io.aeron.driver,io.aeron.driv
+ er.media,io.aeron.protocol,org.agrona.concurrent,org.agrona.concurren
+ t.status",io.aeron.driver.media;version="1.12.0";uses:="io.aeron,io.a
+ eron.driver,io.aeron.protocol,org.agrona.concurrent,org.agrona.concur
+ rent.errors,org.agrona.concurrent.status,org.agrona.nio",io.aeron.dri
+ ver.reports;version="1.12.0";uses:="org.agrona.concurrent",io.aeron.d
+ river.status;version="1.12.0";uses:="org.agrona,org.agrona.concurrent
+ .status"
+Bundle-SymbolicName: io.aeron.driver
+Bundle-Version: 1.12.0
+Bundle-Name: aeron-driver
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1543162179000
+Import-Package: io.aeron;version="[1.12,2)",io.aeron.command;version="
+ [1.12,2)",io.aeron.driver;version="[1.12,2)",io.aeron.driver.buffer;v
+ ersion="[1.12,2)",io.aeron.driver.exceptions;version="[1.12,2)",io.ae
+ ron.driver.media;version="[1.12,2)",io.aeron.driver.reports;version="
+ [1.12,2)",io.aeron.driver.status;version="[1.12,2)",io.aeron.exceptio
+ ns;version="[1.12,2)",io.aeron.logbuffer;version="[1.12,2)",io.aeron.
+ protocol;version="[1.12,2)",io.aeron.status;version="[1.12,2)",org.ag
+ rona;version="[0.9,1)",org.agrona.collections;version="[0.9,1)",org.a
+ grona.concurrent;version="[0.9,1)",org.agrona.concurrent.broadcast;ve
+ rsion="[0.9,1)",org.agrona.concurrent.errors;version="[0.9,1)",org.ag
+ rona.concurrent.ringbuffer;version="[0.9,1)",org.agrona.concurrent.st
+ atus;version="[0.9,1)",org.agrona.nio;version="[0.9,1)",sun.misc
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Created-By: 1.8.0_191 (Oracle Corporation)
+Tool: Bnd-3.4.0.201707252008
+

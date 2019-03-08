@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Implementation-Title: Agrona
+Bundle-SymbolicName: org.agrona
+Implementation-Version: 0.9.27
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1543159786000
+Import-Package: javax.sound.midi,javax.sound.midi.spi,javax.tools,org.
+ agrona;version="[0.9,1)",org.agrona.collections;version="[0.9,1)",org
+ .agrona.concurrent;version="[0.9,1)",org.agrona.concurrent.status;ver
+ sion="[0.9,1)",org.agrona.hints;version="[0.9,1)",sun.misc
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.4.0.201707252008
+Implementation-Vendor: Real Logic Limited
+Export-Package: org.agrona;version="0.9.27";uses:="org.agrona.concurre
+ nt,sun.misc",org.agrona.collections;version="0.9.27",org.agrona.concu
+ rrent;version="0.9.27";uses:="org.agrona,org.agrona.concurrent.status
+ ",org.agrona.concurrent.broadcast;version="0.9.27";uses:="org.agrona,
+ org.agrona.concurrent",org.agrona.concurrent.errors;version="0.9.27";
+ uses:="org.agrona,org.agrona.concurrent",org.agrona.concurrent.ringbu
+ ffer;version="0.9.27";uses:="org.agrona,org.agrona.concurrent",org.ag
+ rona.concurrent.status;version="0.9.27";uses:="org.agrona,org.agrona.
+ collections,org.agrona.concurrent",org.agrona.console;version="0.9.27
+ ",org.agrona.generation;version="0.9.27";uses:="javax.tools",org.agro
+ na.hints;version="0.9.27",org.agrona.io;version="0.9.27";uses:="org.a
+ grona",org.agrona.nio;version="0.9.27",org.agrona.sbe;version="0.9.27
+ ";uses:="org.agrona"
+Bundle-Version: 0.9.27
+Bundle-Name: agrona
+Created-By: 1.8.0_191 (Oracle Corporation)
+

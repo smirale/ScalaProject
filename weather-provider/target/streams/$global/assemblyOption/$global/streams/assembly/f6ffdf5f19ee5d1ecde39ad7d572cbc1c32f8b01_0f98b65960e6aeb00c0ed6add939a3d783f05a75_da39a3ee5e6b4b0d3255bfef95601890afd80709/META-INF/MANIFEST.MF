@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: io.aeron;version="1.12.0";uses:="io.aeron.logbuffer,or
+ g.agrona,org.agrona.concurrent,org.agrona.concurrent.broadcast,org.ag
+ rona.concurrent.ringbuffer,org.agrona.concurrent.status",io.aeron.com
+ mand;version="1.12.0";uses:="io.aeron,org.agrona",io.aeron.exceptions
+ ;version="1.12.0";uses:="io.aeron",io.aeron.logbuffer;version="1.12.0
+ ";uses:="io.aeron,org.agrona,org.agrona.concurrent,org.agrona.concurr
+ ent.status",io.aeron.protocol;version="1.12.0";uses:="org.agrona.conc
+ urrent",io.aeron.security;version="1.12.0";uses:="io.aeron.exceptions
+ ",io.aeron.status;version="1.12.0";uses:="org.agrona,org.agrona.concu
+ rrent.status"
+Bundle-SymbolicName: io.aeron.client
+Bundle-Version: 1.12.0
+Bundle-Name: aeron-client
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1543162178000
+Import-Package: io.aeron;version="[1.12,2)",io.aeron.command;version="
+ [1.12,2)",io.aeron.exceptions;version="[1.12,2)",io.aeron.logbuffer;v
+ ersion="[1.12,2)",org.agrona;version="[0.9,1)",org.agrona.collections
+ ;version="[0.9,1)",org.agrona.concurrent;version="[0.9,1)",org.agrona
+ .concurrent.broadcast;version="[0.9,1)",org.agrona.concurrent.errors;
+ version="[0.9,1)",org.agrona.concurrent.ringbuffer;version="[0.9,1)",
+ org.agrona.concurrent.status;version="[0.9,1)",sun.misc
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Created-By: 1.8.0_191 (Oracle Corporation)
+Tool: Bnd-3.4.0.201707252008
+
