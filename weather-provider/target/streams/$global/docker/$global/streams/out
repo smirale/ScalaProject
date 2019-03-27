@@ -4,30 +4,22 @@
 [0m[[0m[0mdebug[0m] [0m[0mCOPY 1/scripts /project/[0m
 [0m[[0m[0mdebug[0m] [0m[0mENTRYPOINT ["\/project\/start.sh"][0m
 [0m[[0m[0mdebug[0m] [0m[0mCMD ["\/project\/", "weather-provider", "0.1"][0m
-[0m[[0m[0mdebug[0m] [0m[0mPreparing stage directory '/Users/ai/Downloads/ucu/Scala/master/weather-provider/target/docker'[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning command: 'docker build --no-cache=false --rm=true --pull=false .' in '/Users/ai/Downloads/ucu/Scala/master/weather-provider/target/docker'[0m
-[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon 40.29 MB[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreparing stage directory '/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/target/docker'[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning command: 'docker build --no-cache=false --rm=true --pull=false .' in '/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/target/docker'[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  50.52MB[0m
 [0m[[0m[0minfo[0m] [0m[0mStep 1/5 : FROM anapsix/alpine-java:latest[0m
-[0m[[0m[0minfo[0m] [0m[0mlatest: Pulling from anapsix/alpine-java[0m
-[0m[[0m[0minfo[0m] [0m[0m169185f82c45: Already exists[0m
-[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pulling fs layer[0m
-[0m[[0m[0minfo[0m] [0m[0m1e929b64ace7: Pull complete[0m
-[0m[[0m[0minfo[0m] [0m[0mDigest: sha256:1d24bc352e07b84c073acfff8bf913c213d1cfc73cdf876b181d714870968819[0m
-[0m[[0m[0minfo[0m] [0m[0mStatus: Downloaded newer image for anapsix/alpine-java:latest[0m
 [0m[[0m[0minfo[0m] [0m[0m ---> c45785c254c5[0m
 [0m[[0m[0minfo[0m] [0m[0mStep 2/5 : ADD 0/weather-provider-assembly-0.1.jar /project/weather-provider-assembly-0.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> 27eb5a16345d[0m
-[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 4e8e5454bfbc[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 07dbf6a58923[0m
 [0m[[0m[0minfo[0m] [0m[0mStep 3/5 : COPY 1/scripts /project/[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> 595d4e88cf65[0m
-[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container fa2b85601f6b[0m
-[0m[[0m[0minfo[0m] [0m[0mStep 4/5 : ENTRYPOINT /project/start.sh[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> Running in 9b7529ba602d[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> 5ec0557e8fc3[0m
-[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 9b7529ba602d[0m
-[0m[[0m[0minfo[0m] [0m[0mStep 5/5 : CMD /project/ weather-provider 0.1[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> Running in c94838afc79c[0m
-[0m[[0m[0minfo[0m] [0m[0m ---> 0b3bb547de8e[0m
-[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container c94838afc79c[0m
-[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 0b3bb547de8e[0m
-[0m[[0m[0minfo[0m] [0m[0mTagging image 0b3bb547de8e with name: 768305773658.dkr.ecr.us-east-1.amazonaws.com/ucu-class/weather-provider:ostapchuk-0.1[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 742aae805021[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/5 : ENTRYPOINT ["\/project\/start.sh"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 287cfe75596f[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 287cfe75596f[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 32bd359026fc[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/5 : CMD ["\/project\/", "weather-provider", "0.1"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 8fe3fd26ef46[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 8fe3fd26ef46[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 4485cb3ee3cf[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 4485cb3ee3cf[0m
+[0m[[0m[0minfo[0m] [0m[0mTagging image 4485cb3ee3cf with name: 768305773658.dkr.ecr.us-east-1.amazonaws.com/ucu-class/weather-provider:ostapchuk-0.1[0m

@@ -1,4 +1,25 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/ai/Downloads/ucu/Scala/master/weather-provider/src/main/scala/ua/ucu/edu/kafka/DummyDataProducer.scala:5:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/Main.scala:5:19: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.ActorSystem[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/Main.scala:8:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.concurrent.duration[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/Main.scala:9:23: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.language.postfixOps[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/kafka/WeatherDataProducer.scala:5:43: Unused import[0m
 [0m[[0m[33mwarn[0m] [0m[0mimport org.apache.kafka.clients.producer.{Callback, KafkaProducer, ProducerRecord, RecordMetadata}[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/model/WeatherData.scala:3:19: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ua.ucu.edu._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/model/WeatherData.scala:6:34: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.util.control.Breaks.break[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/model/WeatherData.scala:7:16: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport java.io.FileInputStream[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vaden4d/Documents/ucu/scala_final2/streaming-ucu-final-project/weather-provider/src/main/scala/ua/ucu/edu/model/WeatherData.scala:10:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.concurrent.Future[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m

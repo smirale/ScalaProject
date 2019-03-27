@@ -83,9 +83,16 @@ lazy val weather_provider = (project in file("weather-provider"))
   .settings(
     name := "weather-provider",
     libraryDependencies ++= commonDependencies ++ akkaDependencies ++ Seq(
-      // your additional dependencies go here
+      "org.dispatchhttp" %% "dispatch-core" % "1.0.0",
+      "com.typesafe.play" %% "play-json" % "2.6.10"
     ),
-    dockerSettings()
+    dockerSettings(),
+    assemblyMergeStrategy in assembly := { 
+      case x if x.contains("io.netty.versions.properties") => MergeStrategy.discard
+      case x =>
+        val oldStrategy = (assemblyMergeStrategy in assembly).value
+        oldStrategy(x)
+    }
   )
 
 lazy val streaming_app = (project in file("streaming-app"))

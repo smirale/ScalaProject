@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: dispatch-core
+Implementation-Version: 1.0.0
+Specification-Vendor: org.dispatchhttp
+Specification-Title: dispatch-core
+Implementation-Vendor-Id: org.dispatchhttp
+Specification-Version: 1.0.0
+Implementation-URL: https://dispatchhttp.org/
+Implementation-Vendor: org.dispatchhttp
+
