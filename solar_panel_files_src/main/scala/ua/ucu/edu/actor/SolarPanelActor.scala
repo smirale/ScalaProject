@@ -82,7 +82,7 @@ class SolarPanelActor(
 
       if (sensor_records.contains("")==false){
 
-          measurements = "voltage:"+sensor_records(0)+";temperature:"+sensor_records(1)+";percentage:"+sensor_records(2)
+          measurements = s"""{"voltage":${sensor_records(0)},"temperature":${sensor_records(1)},"percentage":${sensor_records(2)}}"""
         sensor_records = List("","","")
 
         myDad ! QueryFromPanelToPlant(plantId, location, panelId,deviceId,sensorType,measurements)
