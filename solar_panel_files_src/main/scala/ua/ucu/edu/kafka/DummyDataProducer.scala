@@ -19,7 +19,20 @@ class DummyDataProducer extends Actor {
   // This is just for testing purposes
   override def receive: Receive = {
     case QueryFromPanelToPlant(plantId, location, panelId,deviceId,sensorType,measurements) => {
-      print("message to kafka from plant  \n" +"plandId: "+  plantId + "panelId: "+  panelId +"  measurements: " + measurements + "\n")
+      var str =
+        s"""{"plantId":${plantId},
+            "location":
+                  {"longitude":${location.longitude},
+                  "latitude":${location.latitude}},
+            "panelId":${panelId},
+            "deviceId":${deviceId},
+            "sensorType":${sensorType},
+            "measurements":${measurements}
+           }
+        """.stripMargin
+
+
+      print(str)
 //      val BrokerList: String = System.getenv(Config.KafkaBrokers)
 //      val Topic = "sensor-data"
 //
